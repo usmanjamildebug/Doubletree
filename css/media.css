@@ -1,0 +1,153 @@
+@media (max-width: 600px) {
+    .header {
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1vw 5vw;
+        position: absolute;
+        z-index: 10;
+        width: 100vw;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .anchors {
+        display: none;
+        gap: 2em;
+    }
+
+    .sign-up {
+        display: none;
+    }
+
+    .carousel-item .d-block {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .carousel-caption h5 {
+        margin-bottom: 20vh;
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 7vw;
+        opacity: 0;
+        font-family: 'Times New Roman', Times, serif;
+        animation: moveup 1.5s ease-in-out 1s forwards;
+    }
+
+    @keyframes moveup {
+        0% {
+            transform: rotate(360deg) translateY(0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: ease translateY(-70%);
+            opacity: 1;
+            font-size: 6vw;
+        }
+    }
+
+    .room-heading {
+        padding: 0 0vw;
+        margin-top: 20px;
+    }
+
+    .room-heading h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+        font-weight: 550;
+        color: #C1AC7E;
+        position: relative;
+    }
+    .room1-a {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+        border-radius: 10px;
+    }
+    .room1-b {
+        width: 200px;
+        height: 250px;
+        position: relative;
+        z-index: -1;
+        top: 30px;
+        left: -50px;
+        border-radius: 10px;
+    }
+    .ani-1 {
+        margin-top: 0vw;
+    }
+    .room1-heading {
+        font-size: 5vw;
+        line-height: 6vw;
+        text-align: center;
+    }
+    .room1-para {
+        padding: 2vw 7vw;
+        line-height: 4vw;
+        font-size: 3.4vw;
+        margin-right: 4vw;
+        color: rgba(0, 0, 0, 0.555);
+    }
+    .deluxe-col {
+        padding: 0;
+    }
+    .room2-heading {
+        font-size: 5vw;
+        text-align: center;
+        margin-bottom: 4.6vw;
+    }
+    .room2-para {
+        line-height: 2vw;
+        font-size: 3.4vw;
+        line-height: 4vw;
+        color: rgba(0, 0, 0, 0.555);
+        text-align: center;
+        padding: 0 10vw;
+        margin-bottom: 8vw;
+    }
+    .room2-a {
+        width: 550px;
+        height: 350px;
+        left: 30px;
+    }
+    .room2-b {
+        width: 350px;
+        height: 150px;
+        top: 80px;
+        left: -125px;
+    }
+    .my-banner {
+        background-image: url("../assets/banner\ 1.jpg");
+        background-attachment: fixed;
+        min-height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: .5s ease;
+    }
+    .doubletree-heading-1 {
+        margin-top: 40vw;
+        font-size: 4.5vw;
+        letter-spacing: 3px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .doubletree-para {
+        margin-top: 1vw;
+        font-size: 3.8vw;
+        margin-bottom: 0;
+    }
+    .doubletree-heading-2 {
+        margin-top: 1vw;
+        font-size: 3.9vw;
+        font-weight: 600;
+    }
+}
