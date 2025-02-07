@@ -9,11 +9,14 @@
     <link rel="icon" href="assets/favicon.JPG">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <title>Doubletree By Hilton Vienna | Book rooms in Vienna</title>
+    <title>DoubleTree By Hilton Vienna | Book rooms in Vienna</title>
 </head>
 
 <body>
     <header class="header">
+        <div class="h-menu" onclick="openNav()">
+            &#9776
+        </div>
         <div class="logo">
             <a href="index.html"><img src="assets/logo.png"></a>
         </div>
@@ -29,6 +32,16 @@
             <i class="bi bi-person"></i>
             <span>SIGN IN</span>
         </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="#">Rooms</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+            <a href="#">Deals</a>
+            <a href="#">My Reservations</a>
+          </div>
+        <div class="sapare"></div>
     </header>
     <!---------- carousel starts here ------------>
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -41,13 +54,13 @@
                 aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item " data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="10000">
                 <img src="assets/carousel 1.jpg" class="d-block ">
                 <div class="carousel-caption">
                     <h5>Doubletree Hotel by <br> Hilton Vienna</h5>
                 </div>
             </div>
-            <div class="carousel-item active" data-bs-interval="2000">
+            <div class="carousel-item" data-bs-interval="2000">
                 <img src="assets/carousel 2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>Enjoy your stay</h5>
@@ -70,7 +83,7 @@
         </button>
     </div>
     <!--------- feature room heading -------------->
-    <div class="row">
+    <div class="row late">
         <div class="col-4"></div>
         <div class="col-4 text-center room-heading">
             <h2>
@@ -80,12 +93,14 @@
         <div class="col-4"></div>
     </div>
     <!---------- king bedroom room ---------------->
-    <div class="row mt-lg-5 mt-md-2">
+    <div class="row mt-lg-5 mt-md-2 late">
         <div class="col-lg-5 col-md-12 ani-1">
             <h4 class="room1-heading">
                 King <br>Bedroom
             </h4>
-            <p class="room1-para">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger.</p>
+            <p class="room1-para">A hotel is an establishment that provides paid lodging on a short-term basis.
+                Facilities provided may range from a modest-quality mattress in a small room to large suites with
+                bigger.</p>
         </div>
         <div class="col-lg-7 col-md-12 d-flex justify-content-lg-end justify-content-md-center px-0">
             <img src="assets/room_1_a.jpg" class="room1-a">
@@ -93,21 +108,22 @@
         </div>
     </div>
     <!-------- Deluxe Family connecting room -------->
-    <div class="row deluxe-row">
+    <div class="row deluxe-row late">
         <div class="col-lg-4 col-md-12 mx-0 deluxe-col">
-          <h4 class="room2-heading">
-            Deluxe Family connecting room
-          </h4>
-          <p class="room2-para" >
-            A hotel is an establishment that provides paid lodging on a short-term basis.Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger
-          </p>
+            <h4 class="room2-heading">
+                Deluxe Family connecting room
+            </h4>
+            <p class="room2-para">
+                A hotel is an establishment that provides paid lodging on a short-term basis.Facilities provided may
+                range from a modest-quality mattress in a small room to large suites with bigger
+            </p>
         </div>
         <div class="col-lg-8 col-md-12 px-0 mx-0 d-flex">
-           <img src="assets/room_2_a.jpg" class="room2-a">
-           <img src="assets/room_2_b.jpg" class="room2-b">
+            <img src="assets/room_2_a.jpg" class="room2-a">
+            <img src="assets/room_2_b.jpg" class="room2-b">
         </div>
     </div>
-    <!----------- parallax background image ----------->
+    <!----------- parallax effect ----------->
     <div class="row">
         <div class="col-12 my-banner">
             <!---------- inner text of the parallax ---------->
@@ -126,7 +142,7 @@
         </div>
     </div>
     <!---------- Hotel amenities heading ----------------->
-    <div class="row">
+    <div class="row late">
         <div class="col-4"></div>
         <div class="col-4 mt-5 text-center amenities-heading">
             <h2>
@@ -134,6 +150,81 @@
             </h2>
         </div>
         <div class="col-4"></div>
+    </div>
+    <!---------- first row of hotel amenities ------------>
+    <div class="container late">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="section-1">
+                    <img src="assets/parking.svg">
+                    <h4 style="color: black; font-weight: 550;">Free Self-Parking</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="section-2">
+                    <img src="assets/internet.svg">
+                    <h4 style="color: black; font-weight: 550;">High speed Internet access</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="section-3">
+                    <img src="assets/wifi.svg">
+                    <h4 style="color: black; font-weight: 550;">Complimentary WiFi in public areas</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Second row of hotel amenities ----------->
+    <div class="container late">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="section-4">
+                    <img src="assets/elevator.svg">
+                    <h4 style="color: black; font-weight: 550;">Elevators</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="section-5">
+                    <img src="assets/partners.svg">
+                    <h4 style="color: black; font-weight: 550;">Meeting rooms</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="section-6">
+                    <img src="assets/washing-machine.svg">
+                    <h4 style="color: black; font-weight: 550;">Laundry and Valet service</h4>
+                    <p style="color: rgba(0, 0, 0, 0.555);">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+                    <a href="#" style="text-decoration: none; border-bottom: 1px solid black; color: black; font-weight: 600; font-size: 17px;">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------ doubletree animation heading --------->
+    <div class="row late">
+        <div class="col d-flex align-items-center flex-column doubletree-animation">
+            <h3>
+                DoubleTree
+            </h3>
+            <h3>
+                DoubleTree
+            </h3>
+        </div>
+    </div>
+    <!----------- special requests div -------------->
+    <div class="row request late">
+        <div class="col request-col">
+            <h5>If you have any special requests, please feel free to call us. <a href="#">+1-800-222-TREE</a></h5>
+        </div>
     </div>
     <br>
     <br>
@@ -147,6 +238,7 @@
     <br>
     <br>
     <br>
+    <script src="script/script.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
