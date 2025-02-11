@@ -160,7 +160,7 @@
         width: 350px;
         height: 150px;
         top: 80px;
-        left: -125px;
+        left: -155px;
     }
 
     .my-banner {
@@ -229,13 +229,13 @@
         position: absolute;
         color: #C1AC7E;
         transform: translate(-50%, -50%);
-        font-size: 15vw;
+        font-size: 13vw;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 700;
         letter-spacing: 5px;
         text-align: center;
         margin-top: 15vw;
-        margin-left: 350px;
+        margin-left: 300px;
     }
 
     .request {
@@ -244,7 +244,7 @@
 
     .request-col {
         text-align: center;
-        padding: 5vw 4vw;
+        padding: 5vw 8vw;
         background: #E0E0E0;
     }
 
@@ -258,5 +258,95 @@
     .request-col h5 a {
         color: #d3ad5c;
         text-decoration: none;
+    }
+    .footer {
+        padding: 10vw 10vw 5vw 10vw;
+        margin: 0 0;
+    }
+    .aboutus-heading {
+        font-size: 4vw;
+    }
+    .aboutus-para {
+        line-height: 4.5vw;
+        font-size: 3vw;
+    }
+    .navigation-heading {
+        font-size: 4vw;
+    }
+    
+    .navigation-para {
+        color: rgba(0, 0, 0, 0.555);
+        list-style: none;
+        margin-top: 2vw;
+    }
+    
+    .navigation-para li {
+        margin-bottom: 1.4vw;
+        margin-left: -7vw;
+        cursor: pointer;
+        font-size: 3vw;
+    }
+    .copyright {
+        color: rgba(0, 0, 0, 0.555);
+        margin-bottom: 0;
+        font-size: 2.5vw;
+        margin-top: 3vw;
+    }
+    .address-heading {
+        font-size: 4vw;
+    }
+    
+    .address-para {
+        color: rgba(0, 0, 0, 0.555);
+        margin-top: 3vw;
+        font-size: 3vw;
+        line-height: 4.5vw;
+    }
+    
+    .telephone-heading {
+        font-size: 4vw;
+    }
+    
+    .telephone-para {
+        line-height: 4.5vw;
+        font-size: 3vw;
+    }
+    .newsletter h4 {
+        font-size: 4vw;
+    }
+    
+    .newsletter p {
+        color: rgba(0, 0, 0, 0.555);
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+    
+    .newsletter input {
+        width: 70%;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        padding: 1vw 1vw;
+        font-size: 1.9vw;
+    }
+    ::placeholder{
+        font-style: oblique;
+    }
+    .newsletter button {
+        color: white;
+        background: #9c8044;
+        border-radius: 10px;
+        padding: .9vw 2.3vw;
+        border: transparent;
+        font-size: 1.5vw;
+        text-transform: capitalize;
+        font-weight: 550;
+    }
+    .icons-footer{
+        margin-top: 24vw;
+    }
+    .icons-footer i{
+        padding: .8vw 1vw;
+        font-size: 2vw;
+    
     }
 }

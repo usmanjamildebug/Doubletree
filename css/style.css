@@ -580,7 +580,6 @@ header {
     padding: 10vw 5vw 5vw 5vw;
     margin: 0 0;
 }
-
 .aboutus-heading {
     color: #9c8044;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -674,7 +673,9 @@ header {
     border-radius: 3px;
     padding: 1vw 1vw;
 }
-
+::placeholder{
+    font-style: oblique;
+}
 .newsletter button {
     color: white;
     background: #9c8044;
